@@ -18,7 +18,7 @@ use IIResponse;
 ### Set data   
 - IIResponse::set_data(['saludo' => 'hola mundo'])   
 
-### Set status codes   
+### Status codes   
 options:   
 'OK' => '200'   
 'CREATED' => '201'   
