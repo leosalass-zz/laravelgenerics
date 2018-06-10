@@ -1,12 +1,16 @@
 {
     "name": "immersioninteractive/laravelgenerics",
+    "type": "library",
     "description": "Laravel Generic classes to make our work easier",
+    "keywords": ["Laravel","Generic"],
+    "homepage": "https://github.com/leosalass/laravelgenerics",
+    "license": "MIT",
     "authors": [{
         "name": "Leonardo Salas",
-        "email": "info@immersioninteractive.com"
+        "email": "info@immersioninteractive.com",
+        "role": "Full Stack Developer"
     }],
-    "minimum-stability": "stable",
-    "version": "1.0.0",
+    "minimum-stability": "dev",
     "require": {},
     "extra": {
         "laravel": {
