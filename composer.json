@@ -1,19 +1,26 @@
 {
     "name": "immersioninteractive/laravelgenerics",
     "description": "Laravel Generic classes to make our work easier",
-    "authors": [
-        {
-            "name": "Leonardo Salas",
-            "email": "info@immersioninteractive.com"
-        }
-    ],
-    "minimum-stability": "dev",
+    "authors": [{
+        "name": "Leonardo Salas",
+        "email": "info@immersioninteractive.com"
+    }],
+    "minimum-stability": "stable",
+    "version": "1.0.0",
     "require": {},
     "extra": {
         "laravel": {
             "providers": [
-                "immersioninteractive\\laravelgenerics\\LaravelgenericsServiceProvider"
-            ]
+                "Immersioninteractive\\Laravelgenerics\\LaravelgenericsServiceProvider"
+            ],
+            "aliases": {
+                "IIResponse": "Immersioninteractive\\Laravelgenerics\\IIResponseFacade"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Immersioninteractive\\Laravelgenerics\\": "src/"
         }
     }
 }

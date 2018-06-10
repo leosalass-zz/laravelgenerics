@@ -1,6 +1,6 @@
 <?php
 
-namespace immersioninteractive\laravelgenerics;
+namespace Immersioninteractive\Laravelgenerics;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -23,6 +23,9 @@ class LaravelgenericsServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->singleton(IIResponse::class, function () {
+            return new IIResponse();
+        });
+        $this->app->alias(IIResponse::class, 'IIResponse');
     }
 }
