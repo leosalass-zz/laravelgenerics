@@ -1,0 +1,19 @@
+{
+    "name": "immersioninteractive/laravelgenerics",
+    "description": "Laravel Generic classes to make our work easier",
+    "authors": [
+        {
+            "name": "Leonardo Salas",
+            "email": "info@immersioninteractive.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "immersioninteractive\\laravelgenerics\\LaravelgenericsServiceProvider"
+            ]
+        }
+    }
+}
